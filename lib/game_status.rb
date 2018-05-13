@@ -52,7 +52,7 @@ end
 
 def winner(board)
   winning_array = won?(board)
-  if winning_arraay
+  if winning_array
     board[winning_array[0]]
   end
 end
