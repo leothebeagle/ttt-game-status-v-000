@@ -52,13 +52,8 @@ end
 
 def winner(board)
   winning_array = won?(board)
-<<<<<<< HEAD
-  if winning_array
-=======
-  if winning_array == false
-    nil
-  else
->>>>>>> 2f8bd48624dc81554f64d93486d881e5b32c586d
+  if winning_arraay
     board[winning_array[0]]
   end
 end
+
