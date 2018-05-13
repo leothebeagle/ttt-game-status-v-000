@@ -56,3 +56,4 @@ def winner(board)
     board[winning_array[0]]
   end
 end
+
