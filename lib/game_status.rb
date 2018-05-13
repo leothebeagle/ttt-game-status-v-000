@@ -53,6 +53,6 @@ end
 def winner(board)
   winning_array = won?(board)
   if winning_arraay
-    board[winning_array[0]}
+    board[winning_array[0]]
   end
 end
